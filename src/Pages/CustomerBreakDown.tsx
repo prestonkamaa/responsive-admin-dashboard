@@ -68,8 +68,7 @@ export default function CustomerBreakDown(){
                 </div>
 
 
-
-                {/* <div className=" overflow-x-auto lg:grow-0 md:grow-0 grow "> */}
+ 
                 <div className=" lg:grow-0 md:grow-0 grow">
                     <div className=" flex ">
                         <p className="text-sm text-gray-700 pr-3 mb-4 font-medium ">INVOICES </p>
@@ -90,14 +89,14 @@ export default function CustomerBreakDown(){
 
 
     
-            <div className=" lg:flex ">     
-            {/* <div className=" rounded-xl h-[700px] overflow-y-scroll border-2 w-1/4 scrollbar-thin scrollbar-thumb-gray-200 "> */}
+            <div className=" lg:flex "> 
+
             <div className=" rounded-xl border-2 lg:h-[820px] lg:w-1/4 lg:overflow-hidden overflow-y-auto h-72">
 
 
                 <div className=" flex mt-5 px-3">
                     < img 
-                        src="/assets/img/female.jpg" 
+                        src={process.env.PUBLIC_URL + "/assets/img/female.jpg"} 
                         className=" rounded-full w-12 h-12 mr-3"                 
                         alt=""
                     />
@@ -163,7 +162,7 @@ export default function CustomerBreakDown(){
                         <p className=" pb-2 text-sm text-gray-500 font-normal">SALES REPRESENTATIVES</p>
                         <div className=" flex items-center">
                             < img
-                                src="/assets/img/male.jpg"
+                                src={process.env.PUBLIC_URL + "/assets/img/male.jpg"}
                                 className=" rounded-full w-8 h-8 mr-2" 
                                 alt=""
                             /> 
