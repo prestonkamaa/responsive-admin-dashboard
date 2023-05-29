@@ -166,6 +166,7 @@ export default function CustomerBreakDown(){
                                 className=" rounded-full w-8 h-8 mr-2" 
                                 alt=""
                             /> 
+                            
                             <p className=" mr-2 text-sm font-medium"> Edwin Ramirez</p> 
 
                             <ChevronDownIcon className=" w-3 h-3" />
