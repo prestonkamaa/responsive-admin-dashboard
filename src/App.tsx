@@ -1,20 +1,20 @@
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route} from "react-router-dom";
 import Login from "./Pages/Login";
-import Layout from "./Pages/Layout";
-import Dashboard from "./Pages/Dashboard";
-import CustomerBreakDown from "./Pages/CustomerBreakDown"; 
-import TimeTracking from "./Pages/TimeTracking";        
-import TaskList from "./Pages/TaskList";
-import LeadPipeline from "./Pages/LeadPipeline";
-import Estimates from "./Pages/Estimates";
-import Invoices from "./Pages/Invoices";
-import Projects from "./Pages/Projects";
-import Schedule from "./Pages/Schedule";
-import PhotosFiles  from "./Pages/PhotosFiles";
-import Maps from "./Pages/Maps";
-import Reports from "./Pages/Reports"; 
-import PageNotFound from "./Pages/PageNotFound"; 
-import Profile from "./Pages/Profile";
+// import Layout from "./Pages/Layout";
+// import Dashboard from "./Pages/Dashboard";
+// import CustomerBreakDown from "./Pages/CustomerBreakDown"; 
+// import TimeTracking from "./Pages/TimeTracking";        
+// import TaskList from "./Pages/TaskList";
+// import LeadPipeline from "./Pages/LeadPipeline";
+// import Estimates from "./Pages/Estimates";
+// import Invoices from "./Pages/Invoices";
+// import Projects from "./Pages/Projects";
+// import Schedule from "./Pages/Schedule";
+// import PhotosFiles  from "./Pages/PhotosFiles";
+// import Maps from "./Pages/Maps";
+// import Reports from "./Pages/Reports"; 
+// import PageNotFound from "./Pages/PageNotFound"; 
+// import Profile from "./Pages/Profile";
 import MainLayout from "./Pages/MainLayout";
 
 
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>  
       <Route index element={<Login />} />
-      <Route element={<Layout />} >
+      {/* <Route element={<Layout />} >
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
         <Route path="timetracking" element={<TimeTracking />} />
@@ -37,8 +37,8 @@ const router = createBrowserRouter(
         <Route path="reports" element={<Reports />} />
         <Route path="profile" element={<Profile />} />
         <Route path="*" element={<PageNotFound />} /> 
-      </Route> 
-      <Route path="*" element={<PageNotFound />} /> 
+      </Route>  */}
+      {/* <Route path="*" element={<PageNotFound />} />  */}
     </Route>
   )
 );
