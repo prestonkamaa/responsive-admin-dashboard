@@ -1,4 +1,3 @@
-// src/components/PieChart.js
 import { Data } from "../SmallGraphData"; 
 import { Pie } from "react-chartjs-2"; 
 

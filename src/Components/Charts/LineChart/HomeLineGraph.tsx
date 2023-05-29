@@ -1,4 +1,3 @@
-// src/components/PieChart.js
 import { Data } from "../GraphData"; 
 import { Line } from "react-chartjs-2"; 
 
