@@ -15,12 +15,7 @@ import {
 
 } from "@heroicons/react/24/outline"
 
-export const SideMenuItemsData = [
-    {
-        icon: <HomeIcon />,
-        title: "Login",
-        titleLink: "/login",
-    },
+export const SideMenuItemsData = [ 
     {
         icon: <HomeIcon />,
         title: "Dashboard",

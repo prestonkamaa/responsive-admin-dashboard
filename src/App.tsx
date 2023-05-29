@@ -20,9 +20,9 @@ import MainLayout from "./Pages/MainLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Login />}>  
-      {/* <Route path="login" element={<Login />} /> */}
-      <Route element={<Layout />} >
+    <Route path="/" element={<MainLayout />}>  
+      <Route path="login" element={<Login />} />
+      <Route element={<Layout />} > 
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
         <Route path="timetracking" element={<TimeTracking />} />
