@@ -13,14 +13,15 @@ import Schedule from "./Pages/Schedule";
 import PhotosFiles  from "./Pages/PhotosFiles";
 import Maps from "./Pages/Maps";
 import Reports from "./Pages/Reports"; 
-// import PageNotFound from "./Pages/PageNotFound"; 
+import PageNotFound from "./Pages/PageNotFound"; 
 import Profile from "./Pages/Profile";
+import MainLayout from "./Pages/MainLayout";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
-      <Route path="/" element={<Login />} />
+    <Route path="/" element={<MainLayout />}>  
+      <Route index element={<Login />} />
       <Route element={<Layout />} >
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
@@ -35,9 +36,9 @@ const router = createBrowserRouter(
         <Route path="maps" element={<Maps />} />
         <Route path="reports" element={<Reports />} />
         <Route path="profile" element={<Profile />} />
-        {/* <Route path="*" element={<PageNotFound />} />  */}
+        <Route path="*" element={<PageNotFound />} /> 
       </Route> 
-      {/* <Route path="*" element={<PageNotFound />} />  */}
+      <Route path="*" element={<PageNotFound />} /> 
     </Route>
   )
 );
