@@ -85,7 +85,7 @@ export default function Login() {
 
         <div className=" flex justify-center pt-2">
           <img 
-            src="../assets/img/admin.png"
+            src={process.env.PUBLIC_URL + "../assets/img/admin.png"}
             width="420px"
             height="420px"
             alt="" 
@@ -97,25 +97,25 @@ export default function Login() {
         <div className="flex md:flex-nowrap grid-col-2 gap-2 pt-2 justify-center ">
 
           <img 
-              src="../assets/img/partner.png"
+              src={process.env.PUBLIC_URL + "../assets/img/partner.png"}
               width="120"
               height="53"
               alt=""
           />
           <img 
-              src="../assets/img/partner.png"
+              src={process.env.PUBLIC_URL + "../assets/img/partner.png"}
               width="120"
               height="53"
               alt=""
           />
           <img 
-              src="../assets/img/partner.png"
+              src={process.env.PUBLIC_URL + "../assets/img/partner.png"}
               width="120"
               height="53"
               alt=""
           /> 
           <img 
-              src="../assets/img/partner.png"
+              src={process.env.PUBLIC_URL + "../assets/img/partner.png"}
               width="120"
               height="53"
               alt=""

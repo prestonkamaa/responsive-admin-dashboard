@@ -390,7 +390,7 @@ export default function Dashboard() {
 
           <div className=" flex border mb-3 p-4">
             <img 
-              src="/assets/img/male.jpg"
+              src={process.env.PUBLIC_URL + "/assets/img/male.jpg"}
               className="w-12 h-12 rounded-full mr-4"
               alt="" 
             />
@@ -404,7 +404,7 @@ export default function Dashboard() {
 
           <div className=" flex border mb-3 p-4">
             <img 
-              src="/assets/img/male.jpg"
+              src={process.env.PUBLIC_URL + "/assets/img/male.jpg"}
               className="w-12 h-12 rounded-full mr-4"
               alt="" 
             />
@@ -418,7 +418,7 @@ export default function Dashboard() {
  
           <div className=" flex border mb-3 p-4">
             <img 
-              src="/assets/img/male.jpg"
+              src={process.env.PUBLIC_URL + "/assets/img/male.jpg"}
               className="w-12 h-12 rounded-full mr-4"
               alt="" 
             />
