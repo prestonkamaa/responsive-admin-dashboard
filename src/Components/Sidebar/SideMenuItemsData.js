@@ -18,6 +18,11 @@ import {
 export const SideMenuItemsData = [
     {
         icon: <HomeIcon />,
+        title: "Login",
+        titleLink: "/login",
+    },
+    {
+        icon: <HomeIcon />,
         title: "Dashboard",
         titleLink: "/dashboard",
     },
