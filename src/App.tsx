@@ -13,7 +13,7 @@ import Schedule from "./Pages/Schedule";
 import PhotosFiles  from "./Pages/PhotosFiles";
 import Maps from "./Pages/Maps";
 import Reports from "./Pages/Reports"; 
-import PageNotFound from "./Pages/PageNotFound"; 
+// import PageNotFound from "./Pages/PageNotFound"; 
 import Profile from "./Pages/Profile";
 
 
@@ -35,9 +35,9 @@ const router = createBrowserRouter(
         <Route path="maps" element={<Maps />} />
         <Route path="reports" element={<Reports />} />
         <Route path="profile" element={<Profile />} />
-        <Route path="*" element={<PageNotFound />} /> 
+        {/* <Route path="*" element={<PageNotFound />} />  */}
       </Route> 
-      <Route path="*" element={<PageNotFound />} /> 
+      {/* <Route path="*" element={<PageNotFound />} />  */}
     </Route>
   )
 );
