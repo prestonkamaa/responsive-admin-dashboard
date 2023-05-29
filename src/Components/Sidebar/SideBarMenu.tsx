@@ -22,7 +22,7 @@ export default function SideBar(){
                 <div className="px-5">
                     <div className=" flex items-center">
                         <img 
-                        src="/assets/img/logo.png" 
+                        src={process.env.PUBLIC_URL + "/assets/img/logo.png"} 
                         width={163} 
                         height={43} 
                         className="pb-5 pt-3 mr-auto"
@@ -70,7 +70,7 @@ export default function SideBar(){
                 <div className=" lg:block hidden px-5 border-t-[1px] pt-5  pb-5">
                     <div className="flex items-center">
                         <div className="mr-auto flex items-center">
-                            <img src="/assets/img/female.jpg" 
+                            <img src={process.env.PUBLIC_URL + "/assets/img/female.jpg"} 
                                 className="rounded-full mr-2"
                                 width={40} 
                                 height={40} 

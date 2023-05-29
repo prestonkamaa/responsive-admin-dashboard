@@ -45,7 +45,7 @@ export default function Profile() {
         </div> 
         <div className=" flex gap-x-5 items-center border rounded-lg outline-1 px-3 py-5 mb-5"> 
           <img
-            src="/assets/img/male.jpg" 
+            src={process.env.PUBLIC_URL + "/assets/img/male.jpg"} 
             alt=""
             className=" w-20 h-20 rounded-full"
             />
