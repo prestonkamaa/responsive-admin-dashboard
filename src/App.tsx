@@ -14,14 +14,13 @@ import PhotosFiles  from "./Pages/PhotosFiles";
 import Maps from "./Pages/Maps";
 import Reports from "./Pages/Reports"; 
 import PageNotFound from "./Pages/PageNotFound"; 
-import Profile from "./Pages/Profile";
-import MainLayout from "./Pages/MainLayout";
+import Profile from "./Pages/Profile"; 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<MainLayout />}>  
-      <Route path="login" element={<Login />} />
+    <Route path="/" element={<Login />}>  
+      {/* <Route path="login" element={<Login />} /> */}
       <Route element={<Layout />} > 
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
