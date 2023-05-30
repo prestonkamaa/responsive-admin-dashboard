@@ -21,8 +21,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>   
       <Route path="/" element={<Login />} />
-      <Route path="app" element={<Layout />} > 
-        <Route path="app" element={<Navigate to="dashboard" />} />
+      <Route element={<Layout />} >
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
         <Route path="timetracking" element={<TimeTracking />} />
@@ -35,8 +34,7 @@ const router = createBrowserRouter(
         <Route path="photosfiles" element={<PhotosFiles />} />
         <Route path="maps" element={<Maps />} />
         <Route path="reports" element={<Reports />} />
-        <Route path="profile" element={<Profile />} />
-        <Route path="*" element={<PageNotFound />} /> 
+        <Route path="profile" element={<Profile />} /> 
       </Route>  
     </Route>
 

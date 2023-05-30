@@ -48,7 +48,7 @@ export default function Login() {
         </div>  
 
         <div>
-          <Link to="/app/dashboard">
+          <Link to="/dashboard">
             <button  className=" w-full grow cursor-pointer bg-green-500 py-2 align-middle rounded-2xl items-center text-sm text-white">
               Login
             </button>
