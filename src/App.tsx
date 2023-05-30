@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, Navigate} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route} from "react-router-dom";
 import Login from "./Pages/Login";
 import Layout from "./Pages/Layout";
 import Dashboard from "./Pages/Dashboard";
@@ -35,6 +35,7 @@ const router = createBrowserRouter(
         <Route path="maps" element={<Maps />} />
         <Route path="reports" element={<Reports />} />
         <Route path="profile" element={<Profile />} /> 
+        <Route path="*" element={<PageNotFound />} /> 
       </Route>  
     </Route>
 
