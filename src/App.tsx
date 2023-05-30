@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, Navigate} from "react-router-dom";
 import Login from "./Pages/Login";
 import Layout from "./Pages/Layout";
 import Dashboard from "./Pages/Dashboard";
@@ -15,12 +15,14 @@ import Maps from "./Pages/Maps";
 import Reports from "./Pages/Reports"; 
 import PageNotFound from "./Pages/PageNotFound"; 
 import Profile from "./Pages/Profile"; 
+import MainLayout from "./Pages/MainLayout";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Login />}>  
-      {/* <Route path="login" element={<Login />} /> */}
+    <Route path="/" element={<MainLayout />}>  
+      <Route path="/" element={<Navigate to="login" />} />
+      <Route path="login" element={<Login />} />
       <Route element={<Layout />} > 
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
