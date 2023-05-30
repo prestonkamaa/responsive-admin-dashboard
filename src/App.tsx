@@ -23,7 +23,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<MainLayout />}>  
       <Route path="/" element={<Navigate to="login" />} />
       <Route path="login" element={<Login />} />
-      <Route element={<Layout />} > 
+      <Route path="app" element={<Layout />} > 
+        <Route path="app" element={<Navigate to="dashboard" />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="customers" element={<CustomerBreakDown />} />
         <Route path="timetracking" element={<TimeTracking />} />

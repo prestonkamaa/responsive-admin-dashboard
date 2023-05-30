@@ -19,17 +19,17 @@ export const SideMenuItemsData = [
     {
         icon: <HomeIcon />,
         title: "Dashboard",
-        titleLink: "/dashboard",
+        titleLink: "dashboard",
     },
     {
         icon: <UserCircleIcon />,
         title: "Customers",
-        titleLink: "/customers",
+        titleLink: "customers",
     },
     {
         icon: <ClockIcon />,
         title: "Time Tracking",
-        titleLink: "/timetracking",
+        titleLink: "timetracking",
     },
     {
         icon: <ClipboardDocumentIcon />,
@@ -39,51 +39,51 @@ export const SideMenuItemsData = [
     {
         icon: <LinkIcon />,
         title: "Lead Pipeline",
-        titleLink: "/leadpipeline",
+        titleLink: "leadpipeline",
     },
     {
         icon: <DocumentChartBarIcon />,
         title: "Estimates",
-        titleLink: "/estimates",
+        titleLink: "estimates",
     },
     {
         icon: <DocumentTextIcon />,
         title: "Invoices",
-        titleLink: "/invoices",
+        titleLink: "invoices",
     },
     {
         icon: <BriefcaseIcon />,
         title: "Projects",
-        titleLink: "/projects",
+        titleLink: "projects",
     },
     {
         icon: <CalendarIcon />,
         title: "Schedule",
-        titleLink: "/schedule",
+        titleLink: "schedule",
     },
     {
         icon: <PaperClipIcon />,
         title: "Photos & Files",
-        titleLink: "/photosfiles",
+        titleLink: "photosfiles",
     },
     {
         icon: <MapIcon />,
         title: "Maps",
-        titleLink: "/maps",
+        titleLink: "maps",
     },
     {
         icon: <ChartPieIcon />,
         title: "Reports",
-        titleLink: "/reports",
+        titleLink: "reports",
     },
     {
         icon: <UserCircleIcon />, 
         title: "Profile",
-        titleLink: "/profile",
+        titleLink: "profile",
     },
     {
         icon: <BoltSlashIcon />,
         title: "404",
-        titleLink: "/reports1",
+        titleLink: "reports1",
     },
 ]
